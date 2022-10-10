@@ -11,7 +11,7 @@ The reconstruction of sound speed from aberration delays is an extremely difficu
 
 If you use the algorithms and/or datasets provided in this repository for your own research work, please cite the above paper.
 
-You can reference a static version of this code by its DOI number: PUT DOI BADGE HERE
+You can reference a static version of this code by its DOI number: [![DOI](https://zenodo.org/badge/548574417.svg)](https://zenodo.org/badge/latestdoi/548574417)
 
 # Code and Sample Datasets
 
