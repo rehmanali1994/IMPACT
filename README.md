@@ -11,6 +11,8 @@ The reconstruction of sound speed from aberration delays is an extremely difficu
 
 If you use the algorithms and/or datasets provided in this repository for your own research work, please cite the above paper.
 
+You can reference a static version of this code by its DOI number: PUT DOI BADGE HERE
+
 # Code and Sample Datasets
 
 **Please download the sample data (AbdominalMap3.mat; AbdominalMap4.mat; RatAbdomenL12-3v.mat; PhantomL12-5-50mm.mat) under the [releases](https://github.com/rehmanali1994/IMPACT/releases) tab for this repository, and place that data in the ([Datasets](https://github.com/rehmanali1994/IMPACT/tree/main/Datasets/)) folder.**
@@ -29,3 +31,15 @@ The following key MATLAB functions (implemented in Python within [functions.py](
 
 Overall, we strongly recommend and prefer the MATLAB code over the Python code because of its faster run times. We also recommend running this code on a system with a large amount of RAM (at least 16 GB, but 32-64 GB is ideal).
 
+# Sample Results
+1) AbdominalMap3.mat and AbdominalMap4.mat:
+
+![](https://github.com/rehmanali1994/IMPACT/blob/main/Python/figures/AbdominalMaps.png)
+
+2) RatAbdomenL12-3v.mat
+
+![](https://github.com/rehmanali1994/IMPACT/blob/main/Python/figures/RatAbdomenL12-3v.png)
+
+3) PhantomL12-5-50mm.mat
+
+![](https://github.com/rehmanali1994/IMPACT/blob/main/Python/figures/PhantomL12-5-50mm.png)
