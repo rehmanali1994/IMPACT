@@ -20,12 +20,12 @@ The following scripts correspond to each dataset:
 2) RatAbdomenL12-3v.mat - [AberrationTomographyShotGatherMigL12_3v.m](https://github.com/rehmanali1994/IMPACT/blob/main/MATLAB/AberrationTomographyShotGatherMigL12_3v.m)) and [AberrationTomographyShotGatherMigL12_3v.py](https://github.com/rehmanali1994/IMPACT/blob/main/Python/AberrationTomographyShotGatherMigL12_3v.py)) - This dataset was obtained from the abdomen of an obese Zucker rat under a Stanford-approved IACUC protocol using an L12-3v probe.
 3) PhantomL12-5-50mm.mat - [AberrationTomographyShotGatherMigL12_5_50mm.m](https://github.com/rehmanali1994/IMPACT/blob/main/MATLAB/AberrationTomographyShotGatherMigL12_5_50mm.m)) and [AberrationTomographyShotGatherMigL12_5_50mm.py](https://github.com/rehmanali1994/IMPACT/blob/main/Python/AberrationTomographyShotGatherMigL12_5_50mm.py)) - This dataset was obtained using an L12-5 50mm probe from a phantom with 3 high sound speed alcohol inclusions to induce aberrations in the image.
 
-The following key MATLAB functions (implemented in Python within [functions.py](https://github.com/rehmanali1994/IMPACT/blob/main/Python/functions.py)) used throughout these scripts are: 
+The following key MATLAB functions (implemented in Python within [functions.py](https://github.com/rehmanali1994/IMPACT/blob/main/Python/functions.py)) used in these scripts are: 
 1) [line_pixel_intersection.m](https://github.com/rehmanali1994/IMPACT/tree/main/MATLAB/functions/line_pixel_intersection.m) - Computation of path length over each pixel in sound speed map for travel-time tomography
 2) [optApod.m](https://github.com/rehmanali1994/IMPACT/tree/main/MATLAB/functions/optApod.m) - Computes the optimal apodization that maximizes the short-lag spatial coherence. If using this script, please cite the following work:
 > Ali, R.; Duric, N.; Dahl, J. "Optimal Transmit Apodization for the Maximization of Lag-One Coherence with Applications to Aberration Delay Estimation". Ultrasonics. *In Review*
 3) [propagate.m](https://github.com/rehmanali1994/IMPACT/tree/main/MATLAB/functions/propagate.m) - The Fourier split-step angular spectrum method used in the wavefield correlation technique
 4) [spray.m](https://github.com/rehmanali1994/IMPACT/tree/main/MATLAB/functions/spray.m) - Adjoint of masking operation used to select imaging points in the medium
 
-Overall, we strongly recommend and prefer the MATLAB code over the Python code because of its faster run times. We also recommend running this code on a system with a large amount of RAM (at least 16 GB, but 32 GB is ideal).
+Overall, we strongly recommend and prefer the MATLAB code over the Python code because of its faster run times. We also recommend running this code on a system with a large amount of RAM (at least 16 GB, but 32-64 GB is ideal).
 
