@@ -1,5 +1,5 @@
 # IMPACT
-Iterative Model-Based Phase Aberration Correction and Tomography (IMPACT)
+Iterative Model-Based Phase Aberration Correction and [Sound Speed] Tomography (IMPACT)
 
 IMPACT is a new framework for sound speed estimation and distributed aberration correction in medical ultrasound imaging. Our previous work (see https://github.com/rehmanali1994/DistributedAberrationCorrection) relies on coherence factor maximization to estimate a focusing sound speed at each imaging point, which is then used to reconstruct the spatial profile of local sound speed in the tissue. However, the performance of this approach quickly degrades when the true sound speed profile varies laterally.
 
