@@ -7,7 +7,7 @@ Instead, IMPACT uses aberration delays (or time shifts) measured between images 
 
 The reconstruction of sound speed from aberration delays is an extremely difficult inverse problem of key diagnostic relevance to medical ultrasound imaging. The primary motivation of this open-source work is to demonstrate the principles behind sound speed tomography in a more transparent manner so that other researchers can easily reproduce our work and improve upon it. The sample data and algorithms provided in this respository were used in following work:
 
-> Ali, R.; Mitcham, T.; Singh, M.; Doyley, M.; Bouchard, R.; Dahl, J.; Duric, N. "Sound Speed Estimation for Distributed Aberration Correction in Laterally Varying Media". IEEE Transactions on Computational Imaging. *In Review*
+> Ali, R.; Mitcham, T.; Singh, M.; Doyley, M.; Bouchard, R.; Dahl, J.; Duric, N. "Sound Speed Estimation for Distributed Aberration Correction in Laterally Varying Media". IEEE Transactions on Computational Imaging. 2023 Mar 28.
 
 If you use the algorithms and/or datasets provided in this repository for your own research work, please cite the above paper.
 
