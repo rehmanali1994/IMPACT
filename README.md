@@ -25,7 +25,7 @@ The following scripts correspond to each dataset:
 The following key MATLAB functions (implemented in Python within [functions.py](https://github.com/rehmanali1994/IMPACT/blob/main/Python/functions.py)) used in these scripts are: 
 1) [line_pixel_intersection.m](https://github.com/rehmanali1994/IMPACT/tree/main/MATLAB/functions/line_pixel_intersection.m) - Computation of path length over each pixel in sound speed map for travel-time tomography
 2) [optApod.m](https://github.com/rehmanali1994/IMPACT/tree/main/MATLAB/functions/optApod.m) - Computes the optimal apodization that maximizes the short-lag spatial coherence. If using this script, please cite the following work:
-> Ali, R.; Duric, N.; Dahl, J. "Optimal Transmit Apodization for the Maximization of Lag-One Coherence with Applications to Aberration Delay Estimation". Ultrasonics. *In Review*
+> Ali, R.; Duric, N.; Dahl, J. "Optimal Transmit Apodization for the Maximization of Lag-One Coherence with Applications to Aberration Delay Estimation". Ultrasonics. 2023 Apr 23:107010.
 3) [propagate.m](https://github.com/rehmanali1994/IMPACT/tree/main/MATLAB/functions/propagate.m) - The Fourier split-step angular spectrum method used in the wavefield correlation technique
 4) [spray.m](https://github.com/rehmanali1994/IMPACT/tree/main/MATLAB/functions/spray.m) - Adjoint of masking operation used to select imaging points in the medium
 
